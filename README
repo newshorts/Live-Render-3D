@@ -1,0 +1,21 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///							Live Render 3D						     ///
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+BACKGROUND:
+
+This repo contains a library for rendering a live 3D point cloud from an x-box kinect. It's based on the danial schiffman 
+library and gets a point data cloud from the kinect. Then it runs the marching cubes algorithm on the point cloud to
+render a live 3d mesh of the object in view.
+
+INSTALLATION:
+
+1.	Go to http://iwearshorts.com/blog/bubble-boy/
+2. 	Install the necessary scripts.
+3. 	Watch the video installation process if it doesn't work.
+
+NEEDS:
+
+Right now it's largely inefficient. It would be nice to clean some of this code up and make it more object oriented. 
+Eventually I want to get it to the efficiency level of being able to live 3d render a person with greater detail than 
+just a blob.
